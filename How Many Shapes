@@ -1,0 +1,33 @@
+from turtle import *
+import math
+
+# Name your Turtle.
+Rocky = Turtle()
+
+# Set Up your screen and starting position.
+Rocky.penup()
+setup(500,300)
+xpos = 0
+ypos = 0
+Rocky.setposition(xpos, ypos)
+
+answer=input("How many sides should you shape have?")
+intanswer= input(answer)
+color=input("What color?")
+Rocky.pendown()
+Rocky.speed(8)
+Rocky.pencolor(color)
+Rocky.fillcolor(color)
+def shape(steps, angle):
+  Rocky.foward(steps)
+  Rocky.right(angle)
+  for answer in range (instanswer )
+
+
+
+
+
+
+
+# Close window on click.
+exitonclick()
